@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: none;
+    list-style: none;
+    outline: none;
+}
+body{
+    background-image: url(./image/1620895627_25-phonoteka_org-p-fon-gori-grafika-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: none;
+}
+.section__one {
+}
+.container {
+    margin: 180px auto;
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  border-radius: 20px;
+   margin-top: 50px; 
+}
+.box__in {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box__in::placeholder{
+    padding: 20px;
+}
+.box__btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.box__btn:hover{
+    color: whitesmoke;
+    background-color: rgb(125, 200, 221);
+}
